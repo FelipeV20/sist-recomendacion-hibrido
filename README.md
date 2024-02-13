@@ -16,5 +16,5 @@ The objective with mixing this three methods is complement their strenghts to st
 - Paths are in absolute format.
 
 # Data
-[link](https://archive.ics.uci.edu/dataset/123/entree+chicago+recommendation+data)
-<a href="https://archive.ics.uci.edu/dataset/123/entree+chicago+recommendation+data">link</a>
+[Entree Chicago restaurant](https://archive.ics.uci.edu/dataset/123/entree+chicago+recommendation+data)
+
