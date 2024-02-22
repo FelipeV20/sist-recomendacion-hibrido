@@ -1,19 +1,19 @@
 # Hybrid recommendation system for Chicago restaurants.
 
-The implementation could be find at *RS_restaurants.ipynb*, at this Jupyter notebook you will observe the next three systems in order:
+The implementation is located in the file *RS_chicago_restaurants/RS_restaurant.ipynb*, here you will find three systems:
 
 1. Content based filter
 2. User based content filter
-	1. it was constructed using MiniBatchKmeans from sklearn library.
+	1. it was built using MiniBatchKmeans from sklearn library.
 3. Item based content filter (Item2vec)
-	1. it was constructed using Gensim library that is an useful library for word embedding process (an NLP technique).
+	1. it was built using Gensim library, which is a useful library for word embedding processes (an NLP technique).
 
-The objective with mixing this three methods is complement their strenghts to strengthen their own singular weakness.
+The above filters work well when mixed together because of their complementary strengths and weaknesses
 
 ## Remarks:
 
-- The implementation of precision and recall, should be implemented.
-- Paths are in absolute format.
+- Evaluation of precision and recall is not implemented.
+- Resources paths are absolute (it won't work out of the box).
 
 # Data
 [Entree Chicago restaurant](https://archive.ics.uci.edu/dataset/123/entree+chicago+recommendation+data)
